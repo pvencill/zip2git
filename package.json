@@ -8,7 +8,7 @@
     "url": "git@github.com:pvencill/zip2git.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r should --bail -R spec"
   },
   "author": "",
   "license": "MIT",
@@ -18,5 +18,9 @@
     "lodash": "^2.4.1",
     "temp": "^0.8.1",
     "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
   }
 }
