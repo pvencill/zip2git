@@ -17,7 +17,8 @@
     "eventemitter2": "^0.4.14",
     "lodash": "^2.4.1",
     "temp": "^0.8.1",
-    "unzip": "^0.1.11"
+    "unzip": "^0.1.11",
+    "chdir": "0.0.0"
   },
   "devDependencies": {
     "mocha": "^2.0.1",
