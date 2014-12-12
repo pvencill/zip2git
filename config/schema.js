@@ -20,7 +20,7 @@ var conf = convict({
   message:{
     doc:'The commit message',
     default:'Unzipping %s into %s',
-    env: 'ZIP_GIT_MSG'
+    env: 'ZIP_GIT_MSG',
     arg:'message'
   },
   username:{
