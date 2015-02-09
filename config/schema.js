@@ -35,6 +35,12 @@ var conf = convict({
       env: 'ZIP_GIT_PWD',
       arg: 'zip-git-pwd'
   },
+  excludeFiles:{
+      doc:'Files to exclude when checking for a directory in the top of the zip file',
+      default: ['.DS_STORE', '__MACOSX'],
+      env: 'ZIP_EXCLUDE',
+      arg: 'zip-exclude'
+  }
 });
 
 module.exports = conf;
